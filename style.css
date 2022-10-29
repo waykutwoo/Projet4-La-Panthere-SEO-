@@ -309,6 +309,10 @@ a:hover {
     width:22%;
     
 }
+.img {
+    height: auto;
+    width: 100%;
+  }
 
 .navbar-brand img[src$=webp] {
     min-width: 100px;
@@ -739,7 +743,7 @@ h4 {
 }
 
 .white {
-    color: white!important;
+    color: rgb(255, 255, 255)!important;
 }
 
 .portfolio-thumb {
