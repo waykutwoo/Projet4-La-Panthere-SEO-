@@ -600,7 +600,7 @@ a[data-lightbox]:hover img {
     top: 20px;
     right: 20px;
     z-index: 20;
-    background: #fc9078;
+    background: #FC9078;
     border: none;
     line-height: 30px;
     padding: 0 9px 5px;
@@ -618,7 +618,7 @@ a[data-lightbox]:hover img {
 .prev-lightbox {
     font-size: 20px;
     color: #000!important;
-    background: #fc9078;
+    background: #FC9078;
     transition: all .2s ease-in-out;
     position: absolute;
     top: 45%;
@@ -658,7 +658,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #1a1a1a!important;
+    color: #171717!important;
 }
 
 .container {
@@ -743,7 +743,7 @@ h4 {
 }
 
 .white {
-    color: white!important;
+    color: #000000!important;
 }
 
 .portfolio-thumb {
@@ -760,7 +760,7 @@ h4 {
 }
 
 .black-background {
-    background-color: #fc9078;
+    background-color: #FC9078;
     padding: 40px 40px 40px 40px;
 }
 
@@ -774,11 +774,11 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #171717;
 }
 
 .bgc-atomic-tangerine {
-    background-color: #fc9078;
+    background-color: #FC9078;
 }
 
 .tc-white {
@@ -786,7 +786,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #fc9078;
+    background: #FC9078;
     color: #000!important;
 }
 
@@ -804,7 +804,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #fc9078!important;
+    color: #FC9078!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -812,8 +812,8 @@ h4 {
 }
 
 .icon-dark-slate-blue {
-    color: #fc9078!important;
-    border-color: #fc9078!important;
+    color: #FC9078!important;
+    border-color: #FC9078!important;
     text-shadow:none!important
 }
 
