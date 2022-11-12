@@ -32,7 +32,7 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
+    
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -41,20 +41,27 @@ a:hover {
 }
 
 .bloc .container {
-    padding-left: 0;
-    padding-right: 0;
-    margin-bottom: -45px;
-    padding-top: 37px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 100px;
 }
 
-@media (min-width: 375px) {
+@media (max-width: 1024px) {
     .bloc .container {
-        padding-left: 0;
-        padding-right: 0;
-        margin-bottom: -20px;
-        padding-top: 37px;
-    }
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 60px;
+        }
 }
+
+@media (max-width: 768px) {
+    .bloc .container {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 60px;
+        }
+}
+
 
 @media (max-width: 767px) {
     .col-sm-6 {
@@ -65,7 +72,7 @@ a:hover {
 
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 30px 50px;
 }
 
 .bloc-md {
@@ -110,6 +117,7 @@ a:hover {
 .texture-paper::before {
     /*background: url("img/texture-paper.webp");*/
     background-size: 3px 3px;
+    
 }
 
 .b-parallax {
@@ -814,6 +822,7 @@ h4 {
 
 .bgc-white {
     background-color: #FFFFFF;
+   
 }
 
 .bgc-dark-slate-blue {
@@ -1010,6 +1019,7 @@ h4 {
         padding: 0;
         overflow-x: hidden;
         box-shadow: none;
+        margin-bottom: -20px;
     }
     .navbar-brand img {
         max-height: 40px;
