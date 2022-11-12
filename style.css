@@ -43,8 +43,24 @@ a:hover {
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
-    margin-bottom: -20px;
+    margin-bottom: -45px;
 }
+@media (min-width: 445px) {
+    .bloc .container {
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: -22px;
+    }
+}
+
+@media (min-width: 767px) {
+    .bloc .container {
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: -12px;
+    }
+}
+
 
 
 @media (max-width: 767px) {
@@ -999,12 +1015,15 @@ h4 {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+        
     }
-    .bloc-xxl,
+
+    
+    /*.bloc-xxl,
     .bloc-xl,
     .bloc-lg {
         padding: 40px 0;
-    }
+    }*/
     .bloc-sm,
     .bloc-md {
         padding-left: 0;
@@ -1061,5 +1080,14 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+        
+        }
     }
-}
+
+
+      
+            
+            
+       
+
+       
