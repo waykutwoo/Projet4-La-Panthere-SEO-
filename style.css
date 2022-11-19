@@ -31,6 +31,19 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+#bloc-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+.navbar-header {
+    padding-top: 10px;
+}
+
+
+
+
 .bloc {
     
     clear: both;
@@ -38,19 +51,107 @@ a:hover {
     padding: 0 50px;
     background-size: cover;
     position: relative;
+    padding-top: 60px;
 }
+@media (min-width: 1441px) {
+    .bloc {
+        
+        clear: both;
+        background: 50% 50% no-repeat;
+        padding: 0 50px;
+        background-size: cover;
+        position: relative;
+        padding-top: 100px;
+    }
+    }
+
+
+
+@media (max-width: 1440px) {
+.bloc {
+    
+    clear: both;
+    background: 50% 50% no-repeat;
+    padding: 0 50px;
+    background-size: cover;
+    position: relative;
+    padding-top: 110px;
+}
+}
+
+@media (max-width: 1280px) {
+    .bloc {
+        
+        clear: both;
+        background: 50% 50% no-repeat;
+        padding: 0 50px;
+        background-size: cover;
+        position: relative;
+        padding-top: 110px;
+    }
+    }
+
+    @media (max-width: 1024px) {
+        .bloc {
+            
+            clear: both;
+            background: 50% 50% no-repeat;
+            padding: 0 50px;
+            background-size: cover;
+            position: relative;
+            padding-top: 110px;
+        }
+        }
+
+
+    @media (max-width: 768px) {
+        .bloc {
+            
+            clear: both;
+            background: 50% 50% no-repeat;
+            padding: 0 50px;
+            background-size: cover;
+            position: relative;
+            padding-top: 110px;
+        }
+        }
+
+        @media (max-width: 480px) {
+            .bloc {
+                
+                clear: both;
+                background: 50% 50% no-repeat;
+                padding: 0 50px;
+                background-size: cover;
+                position: relative;
+                padding-top: 90px;
+            }
+            }
+
+            
 
 .bloc .container {
 padding-left: 0px;
 padding-right: 0px;
-padding-top: 100px;
+
 }
+@media (max-width: 1440px) {
+    .bloc .container {
+        padding-left: 0px;
+        padding-right: 0px;
+       
+        }
+}
+
+
+
+
 
 @media (max-width: 1024px) {
     .bloc .container {
         padding-left: 0px;
         padding-right: 0px;
-        padding-top: 60px;
+       
         }
 }
 
@@ -58,7 +159,7 @@ padding-top: 100px;
     .bloc .container {
         padding-left: 0px;
         padding-right: 0px;
-        padding-top: 60px;
+        
         }
 }
 
@@ -1017,7 +1118,7 @@ h4 {
     }
     .navbar-collapse {
         padding: 0;
-        overflow-x: hidden;
+        
         box-shadow: none;
         margin-bottom: -20px;
     }
