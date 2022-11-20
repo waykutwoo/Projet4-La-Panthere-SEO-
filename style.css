@@ -103,15 +103,6 @@ a:hover {
         }
         }
 
-.bloc {
-    
-    clear: both;
-    background: 50% 50% no-repeat;
-    padding: 0 50px;
-    background-size: cover;
-    position: relative;
-    padding-top: 60px;
-}
 @media (min-width: 1441px) {
     .bloc {
         
@@ -120,7 +111,7 @@ a:hover {
         padding: 0 50px;
         background-size: cover;
         position: relative;
-        padding-top: 75px;
+        padding-top: 95px;
     }
     }
 
@@ -134,7 +125,7 @@ a:hover {
     padding: 0 50px;
     background-size: cover;
     position: relative;
-    padding-top: 75px;
+    padding-top: 95px;
 }
 }
 
@@ -146,7 +137,7 @@ a:hover {
         padding: 0 50px;
         background-size: cover;
         position: relative;
-        padding-top: 75px;
+        padding-top: 95px;
     }
     }
 
@@ -158,7 +149,7 @@ a:hover {
             padding: 0 50px;
             background-size: cover;
             position: relative;
-            padding-top: 75px;
+            padding-top: 95px;
         }
         }
 
@@ -183,11 +174,21 @@ a:hover {
                 padding: 0 50px;
                 background-size: cover;
                 position: relative;
-                padding-top: 75px;
+                padding-top: 60px;
             }
             }
 
-            
+            @media (max-width: 479px) {
+                .bloc {
+                    
+                    clear: both;
+                    background: 50% 50% no-repeat;
+                    padding: 0 50px;
+                    background-size: cover;
+                    position: relative;
+                    padding-top: 45px;
+                }
+                }   
 
 .bloc .container {
 padding-left: 0px;
@@ -998,6 +999,8 @@ h4 {
 
 .bgc-atomic-tangerine {
     background-color: #FC9078;
+    padding-top: 20px;
+    
 }
 
 .tc-white {
